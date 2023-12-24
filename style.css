@@ -1,0 +1,42 @@
+.expstyle{
+    margin-left: 530px;
+    margin-top: 50px;
+    height: 300px;
+    margin-right: 460px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.lbl{
+    font-family: fantasy;
+
+}
+
+.inp{
+    
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.btn{
+    height: 35px;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color:#2596be;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+.edtbtn{
+    margin-left: 2px;
+}
+.delbtn{
+    margin-left: 5px;
+}
+
+#browData{
+    color: White;
+}

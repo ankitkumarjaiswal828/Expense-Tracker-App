@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Trackers App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: darkcyan;">
+    
+    <div class="expstyle">
+        <h1 style="margin-left: 105px; font-weight: bolder; padding-top: 15px; color:#2596be ;" >Expense Tracking App</h1>
+            
+        <form onsubmit="dataStore(event)">
+                <div style="margin-left: 20px;">
+                    <label class="lbl">Enter Expense Amount</label>
+                    <input type="number" name="amount" id="amt" class="inp" style="margin-left: 36px;">
+                
+                    <br><br>
+                    <label class="lbl">Enter Discription</label>
+                    <input type="text" class="inp" name="Discription" id="dis" style="margin-left: 70px;">
+                
+                    <br><br>
+                    <label class="lbl">Choose a Catagory</label>
+                    <select name="Catagory" id="cat" style="margin-left: 55px; height: 25px; width: 200px; border-radius: 20px;">
+                        <option value=""></option>
+                        <option value="Fuel">Fuel</option>
+                        <option value="Movie">Movie</option>
+                        <option value="Food">Food</option>
+                        <option value="Electricity">Electricity</option>
+                    </select>
+                    <br><br><br>
+                
+                    <button type="submit" class="btn">Add Expense</button>
+                </div>
+            </form>
+
+            <br><br>
+            <h3 style="color: white;">Expense of Customer</h3>
+            <ul id="browData"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
